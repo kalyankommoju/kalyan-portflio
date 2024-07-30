@@ -176,9 +176,6 @@ button:hover {
     .skills {
         display: block;
     }
-    *{
-        text-align: justify;
-    }
 }
 .dropdown-menu .dropdown-item {
     color: #333; 
