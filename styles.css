@@ -176,6 +176,10 @@ button:hover {
     .skills {
         display: block;
     }
+    .load{
+        margin-left: 5.5%;
+        text-align: center;
+    }
 }
 .dropdown-menu .dropdown-item {
     color: #333; 

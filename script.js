@@ -18,6 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         document.getElementById('loading-screen').style.opacity = '0';
         document.getElementById('loading-screen').style.display = 'none';
-    }, 950); // Adjust this timeout value based on your needs
+    }, 2000); // Adjust this timeout value based on your needs
 });
 
