@@ -12,3 +12,12 @@ function SendMail() {
             alert('Failed: ' + error.text);
         });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Simulate loading time (e.g., 3 seconds)
+    setTimeout(function() {
+        document.getElementById('loading-screen').style.opacity = '0';
+        document.getElementById('loading-screen').style.display = 'none';
+    }, 950); // Adjust this timeout value based on your needs
+});
+
