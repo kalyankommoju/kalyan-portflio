@@ -20,4 +20,3 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('loading-screen').style.display = 'none';
     }, 2000); // Adjust this timeout value based on your needs
 });
-

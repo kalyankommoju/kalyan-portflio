@@ -10,7 +10,13 @@ body {
 .nav-link {
     color: #fff !important;
 }
-
+.navbar-toggler {
+    position: absolute;
+    width: 15%;
+    top: 9px;  /* Adjust as necessary */
+    right: 15px;  /* Adjust as necessary */
+    z-index: 1001;  /* Ensure it stays on top */
+}
 .jumbotron {
     background: #A37DFF;
     color: #fff;
@@ -180,6 +186,13 @@ button:hover {
         margin-left: 5.5%;
         text-align: center;
     }
+    .nav-bar {
+        display: none; /* Hide the full nav on small screens */
+      }
+      .nav-toggle {
+        top: 10px;  /* Further adjustments for mobile */
+        right: 10px;
+      }
 }
 .dropdown-menu .dropdown-item {
     color: #333; 
