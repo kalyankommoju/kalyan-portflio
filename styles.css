@@ -231,3 +231,7 @@ html {
     color: #333; /* Text color */
 }
 
+#viewbutt{
+    width: 15%;
+    padding: 8px;
+}
